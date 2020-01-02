@@ -23,6 +23,11 @@ class CreateBonus
 
     private $max;
 
+    public function demo()
+    {
+        return "demo" ;
+    }
+    
     //  设置总金额
     public function setTotal($total)
     {
