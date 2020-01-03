@@ -22,11 +22,12 @@ class CreateBonus
     private $min;
 
     private $max;
-
-    public function demo()
+    
+    public function test()
     {
-        return "demo" ;
+        return "this is a test html" ;
     }
+
     
     //  设置总金额
     public function setTotal($total)
